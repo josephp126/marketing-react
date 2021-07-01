@@ -8,7 +8,7 @@ function Counter({name}) {
   const numbers = [1, 2, 3, 4, 5, 6];
   const sum = numbers.reduce((total, num) => total + num, 0);
   const truth = numbers.filter(Boolean).length;
-
+  const a = 1;
   console.log(numbers.flatMap(val => val/3));
   // useEffect(() => {
   //   const id = setInterval(() => {
